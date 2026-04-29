@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Fureca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0f1e;
+      --card: #111827;
+      --accent: #3b82f6;
+      --cyan: #06b6d4;
+      --muted: #64748b;
+      --text: #f1f5f9;
+      --text2: #94a3b8;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .nav-logo {
+      font-size: 22px;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent), var(--cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    .content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: var(--text2);
+      font-size: 16px;
+      margin-bottom: 64px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    p {
+      color: var(--text2);
+      font-size: 15px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="nav-logo">Fureca</a>
+  </nav>
+  <div class="content">
+    <h1>Support</h1>
+    <p class="subtitle">We're here to help. Reach out and we'll get back to you as soon as possible.</p>
+
+    <div class="card">
+      <h2>📧 Email Support</h2>
+      <p>For questions, bug reports, or feedback, email us at <a href="mailto:support@fureca.app">support@fureca.app</a>. We typically respond within 24-48 hours.</p>
+    </div>
+
+    <div class="card">
+      <h2>🐛 Report a Bug</h2>
+      <p>Found something that doesn't work as expected? Please describe what happened, what you expected, and your device/iOS version. Send details to <a href="mailto:support@fureca.app">support@fureca.app</a>.</p>
+    </div>
+
+    <div class="card">
+      <h2>💡 Feature Requests</h2>
+      <p>Have an idea for a new feature or improvement? We'd love to hear it. Send your suggestion to <a href="mailto:support@fureca.app">support@fureca.app</a>.</p>
+    </div>
+  </div>
+</body>
+</html>
