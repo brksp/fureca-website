@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fureca — Sports Prediction</title>
+  <title>Golmodel — Football Predictions</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
@@ -372,7 +372,7 @@
 <body>
 
   <nav>
-    <div class="nav-logo">Fureca</div>
+    <div class="nav-logo">Golmodel</div>
     <ul class="nav-links">
       <li><a href="#features">Features</a></li>
       <li><a href="#how-it-works">How it works</a></li>
@@ -384,7 +384,7 @@
   <section class="hero">
     <div class="hero-badge">Now on TestFlight</div>
     <h1>Smarter predictions.<br><span>Data-driven football.</span></h1>
-    <p class="hero-sub">Fureca combines a Poisson-based statistical model with live market odds to give you the most accurate match predictions available.</p>
+    <p class="hero-sub">Golmodel combines a Poisson-based statistical model with market consensus probabilities, and shows you both numbers next to the blend they produce.</p>
     <div class="cta-group">
       <a href="#" class="btn-primary">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
@@ -396,11 +396,11 @@
 
   <div class="stats-bar">
     <div class="stat">
-      <div class="stat-value">51%+</div>
-      <div class="stat-label">Prediction accuracy</div>
+      <div class="stat-value">59.9%</div>
+      <div class="stat-label">Blend accuracy</div>
     </div>
     <div class="stat">
-      <div class="stat-value">76%+</div>
+      <div class="stat-value">73.0%</div>
       <div class="stat-label">Double chance accuracy</div>
     </div>
     <div class="stat">
@@ -408,7 +408,7 @@
       <div class="stat-label">Leagues covered</div>
     </div>
     <div class="stat">
-      <div class="stat-value">v6.0</div>
+      <div class="stat-value">v6.2</div>
       <div class="stat-label">Model version</div>
     </div>
   </div>
@@ -416,7 +416,7 @@
   <section class="section" id="features">
     <div class="section-label">Features</div>
     <h2 class="section-title">Everything you need to<br>make better predictions</h2>
-    <p class="section-sub">Built on a Dixon-Coles statistical model blended with live Pinnacle market odds.</p>
+    <p class="section-sub">Built on a Dixon-Coles statistical model blended with market consensus probabilities. Accuracy figures on this page are measured over 304 completed matches.</p>
     <div class="features-grid">
       <div class="feature-card">
         <div class="feature-icon">📊</div>
@@ -426,7 +426,7 @@
       <div class="feature-card">
         <div class="feature-icon">⚖️</div>
         <div class="feature-title">Market Blend</div>
-        <div class="feature-desc">45% statistical model + 55% Pinnacle market odds. The blend produces more accurate predictions than either source alone.</div>
+        <div class="feature-desc">45% statistical model, 55% market consensus. A fixed weighting, applied the same way to every match rather than tuned per fixture.</div>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🏥</div>
@@ -436,12 +436,12 @@
       <div class="feature-card">
         <div class="feature-icon">🎯</div>
         <div class="feature-title">Double Chance</div>
-        <div class="feature-desc">76%+ accuracy on double chance predictions. The safest way to hedge your bets with data-backed combinations.</div>
+        <div class="feature-desc">73% accuracy on double chance calls across 304 completed matches. When the top two outcomes sit close together the model says so, instead of forcing a single pick.</div>
       </div>
       <div class="feature-card">
         <div class="feature-icon">⚡️</div>
         <div class="feature-title">Harmony Score</div>
-        <div class="feature-desc">✅ when model and market agree — more reliable. ⚠️ when they diverge — proceed with caution. Simple signal, powerful insight.</div>
+        <div class="feature-desc">✅ when the model and the market agree, ⚠️ when they diverge. A plain reading of how far apart the two sources are.</div>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🌍</div>
@@ -453,8 +453,8 @@
 
   <section class="section" id="how-it-works" style="padding-top: 0;">
     <div class="section-label">How it works</div>
-    <h2 class="section-title">Three steps to smarter picks</h2>
-    <p class="section-sub">Fureca does the heavy lifting so you can focus on making informed decisions.</p>
+    <h2 class="section-title">Three steps to the numbers</h2>
+    <p class="section-sub">Golmodel does the arithmetic, and shows its work.</p>
     <div class="steps">
       <div class="step">
         <div class="step-num">01</div>
@@ -464,7 +464,7 @@
       <div class="step">
         <div class="step-num">02</div>
         <div class="step-title">Dive into the analysis</div>
-        <div class="step-desc">Tap any match to see full breakdown: model probabilities, live market odds, squad availability, and the blended prediction.</div>
+        <div class="step-desc">Tap any match to see full breakdown: model probabilities, market consensus, squad availability, and the blended prediction.</div>
       </div>
       <div class="step">
         <div class="step-num">03</div>
@@ -475,12 +475,13 @@
   </section>
 
   <footer>
-    <div class="footer-logo">Fureca</div>
+    <div class="footer-logo">Golmodel</div>
     <ul class="footer-links">
       <li><a href="privacy.html">Privacy Policy</a></li>
       <li><a href="support.html">Support</a></li>
     </ul>
-    <div class="footer-copy">© 2026 Fureca. All rights reserved.</div>
+    <div class="footer-copy">Golmodel is an analysis tool, not a betting or gambling service. It accepts no wagers and handles no money. All output is informational.</div>
+    <div class="footer-copy">© 2026 Golmodel. All rights reserved.</div>
   </footer>
 
 </body>
