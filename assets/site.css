@@ -69,7 +69,7 @@ nav {
   text-decoration: none;
 }
 
-.nav-logo img { width: 28px; height: 28px; border-radius: 6.5px; display: block; }
+.nav-logo img { width: 28px; height: 28px; border-radius: 6.5px; display: block; box-shadow: 0 0 0 1px var(--edge); }
 
 .nav-links {
   display: flex;
