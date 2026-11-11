@@ -2,6 +2,12 @@
 
 Prepared 5 November 2026 against commit `545db9d7edfc28d4580f4fe11750c5ab9a692c9f` of `brksp/fureca-website`.
 
+## Custom domain (11 November 2026)
+
+The site moved from `https://brksp.github.io/fureca-website/` to `https://golmodel.app/`. The domain is registered at Cloudflare; its DNS records point at GitHub Pages with the proxy off (DNS only), so GitHub issues the certificate. This change updates every canonical, hreflang, Open Graph, JSON-LD, language-switch and sitemap URL together and adds the `CNAME` file.
+
+`robots.txt` now sits at the host root (`https://golmodel.app/robots.txt`), so the host-root section further down describes the old host only. In Search Console, add a Domain property for `golmodel.app` (verified with a DNS TXT record in Cloudflare) and submit `https://golmodel.app/sitemap.xml`.
+
 ## Changes ready for review
 
 - Keep the existing English URL and visual system.

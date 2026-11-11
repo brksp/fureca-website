@@ -3,28 +3,28 @@
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maç Tahmin Modeli Nasıl Çalışır? | Golmodel</title>
   <meta name="description" content="Poisson modeli, beklenen gol, skor tahmini ve çifte şans ne demek? Golmodel ile maç olasılıklarını ve geçmiş performansı nasıl okuyacağını öğren.">
-  <link rel="canonical" href="https://brksp.github.io/fureca-website/tr/model-nasil-calisir.html">
+  <link rel="canonical" href="https://golmodel.app/tr/model-nasil-calisir.html">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="apple-itunes-app" content="app-id=6762003027, affiliate-data=pt=119049197&amp;ct=website">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Golmodel">
   <meta property="og:title" content="Maç Tahmin Modeli Nasıl Çalışır? | Golmodel">
   <meta property="og:description" content="Poisson modeli, beklenen gol, skor tahmini ve çifte şans ne demek? Golmodel ile maç olasılıklarını ve geçmiş performansı nasıl okuyacağını öğren.">
-  <meta property="og:url" content="https://brksp.github.io/fureca-website/tr/model-nasil-calisir.html">
+  <meta property="og:url" content="https://golmodel.app/tr/model-nasil-calisir.html">
   <meta property="og:locale" content="tr_TR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Maç Tahmin Modeli Nasıl Çalışır? | Golmodel">
   <meta name="twitter:description" content="Poisson modeli, beklenen gol, skor tahmini ve çifte şans ne demek? Golmodel ile maç olasılıklarını ve geçmiş performansı nasıl okuyacağını öğren.">
-  <link rel="alternate" hreflang="en" href="https://brksp.github.io/fureca-website/how-it-works.html">
-  <link rel="alternate" hreflang="tr" href="https://brksp.github.io/fureca-website/tr/model-nasil-calisir.html">
-  <link rel="alternate" hreflang="x-default" href="https://brksp.github.io/fureca-website/how-it-works.html">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://brksp.github.io/fureca-website/tr/model-nasil-calisir.html#page", "url": "https://brksp.github.io/fureca-website/tr/model-nasil-calisir.html", "name": "Maç Tahmin Modeli Nasıl Çalışır? | Golmodel", "description": "Poisson modeli, beklenen gol, skor tahmini ve çifte şans ne demek? Golmodel ile maç olasılıklarını ve geçmiş performansı nasıl okuyacağını öğren.", "inLanguage": "tr"}</script>
+  <link rel="alternate" hreflang="en" href="https://golmodel.app/how-it-works.html">
+  <link rel="alternate" hreflang="tr" href="https://golmodel.app/tr/model-nasil-calisir.html">
+  <link rel="alternate" hreflang="x-default" href="https://golmodel.app/how-it-works.html">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://golmodel.app/tr/model-nasil-calisir.html#page", "url": "https://golmodel.app/tr/model-nasil-calisir.html", "name": "Maç Tahmin Modeli Nasıl Çalışır? | Golmodel", "description": "Poisson modeli, beklenen gol, skor tahmini ve çifte şans ne demek? Golmodel ile maç olasılıklarını ve geçmiş performansı nasıl okuyacağını öğren.", "inLanguage": "tr"}</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=DM+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/site.css">
 </head><body>
-<nav><a href="./" class="nav-logo">Golmodel</a><a class="language-link" href="https://brksp.github.io/fureca-website/how-it-works.html" lang="en">English</a></nav>
+<nav><a href="./" class="nav-logo">Golmodel</a><a class="language-link" href="https://golmodel.app/how-it-works.html" lang="en">English</a></nav>
 <main><article class="article"><p>Golmodel tahmin rehberi</p><h1>Maç tahmini, skor olasılığı ve model isabeti nasıl okunur?</h1><p>Futbol tahmini, belirsizliği sayılarla ifade eder. Bir maçın kesin sonucunu söylemez. Golmodel, istatistiksel modelle maç sonucu olasılıklarını ve olası skorları hesaplar; ardından tahmini gerçekleşen sonuçla karşılaştırmanı sağlar.</p>
 <h2>1, X ve 2 ne demek?</h2><p>1 ev sahibi galibiyetini, X beraberliği, 2 deplasman galibiyetini ifade eder. Örneğin ev sahibi için %60 olasılık verilmesi, beraberlik veya deplasman galibiyeti için hâlâ toplam %40 olasılık olduğu anlamına gelir. Bu örnek bir olasılığın nasıl okunacağını anlatır; güncel bir maçın tahmini değildir.</p><p>Maç sonucu değerlendirmesi, duraklama dakikaları dahil 90 dakikalık sonuca göre yapılır. Uzatma ve penaltılarla tur atlayan takımı bilmek ayrı bir sorudur. Eleme maçlarında maç sonucuyla tur atlayan takımı birbirine karıştırmamak gerekir.</p>
 <h2>Poisson modeli ne yapar?</h2><p>Poisson gol modeli, iki takım için beklenen gol değerlerinden yola çıkar. Hücum ve savunma gücü bu tahminlere girdi sağlar. Model, farklı gol sayılarının olasılığını hesaplar ve bunları olası skorlar halinde birleştirir. Skor olasılıkları toplandığında ev sahibi galibiyeti, beraberlik ve deplasman galibiyeti olasılıkları elde edilir.</p><p>Golmodel’in yayımlanan yönteminde düşük skorlu sonuçlar için Dixon-Coles düzeltmesi ve piyasa olasılıklarıyla harmanlama bulunur. İstatistiksel model ve piyasa, farklı girdilerdir. Birbirleriyle aynı yönde olmaları sonucun garanti olduğu anlamına gelmez.</p>
